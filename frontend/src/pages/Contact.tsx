@@ -5,7 +5,7 @@ import { Footer } from '../components/Footer';
 import { NewsletterBlock } from '../components/NewsletterBlock';
 import { Button } from '../components/Button';
 import { fadeInUp, slideInRight, SHIMMER_BTN_CLASS } from '../utils/animations';
-import { Mail, MapPin, Clock, Phone, ChevronDown, CheckCircle } from 'lucide-react';
+import { Mail, MapPin, Clock, ChevronDown } from 'lucide-react';
 
 /* ═══════════════════════════════════════════════════════════════════════
    PAGE COMPONENT

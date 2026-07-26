@@ -9,7 +9,7 @@ import { BLOG_POSTS, ARTICLE_CONTENTS } from '../data/articlesData';
 import { getPillarStyle } from '../utils/pillarConfig';
 import type { Pillar } from '../utils/pillarConfig';
 import { fadeInUp, staggerContainer } from '../utils/animations';
-import { ChevronRight, Clock, Share2, Link as LinkIcon, MessageCircle, Mail } from 'lucide-react';
+import { ChevronRight, Clock, Link as LinkIcon, MessageCircle, Mail } from 'lucide-react';
 
 export const BlogArticle: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();

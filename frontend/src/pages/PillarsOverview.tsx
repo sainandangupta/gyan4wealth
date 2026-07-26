@@ -37,21 +37,25 @@ const PILLAR_DATA: {
     pillar: 'Career',
     title: 'Career Growth',
     description: 'Negotiate equity comp and build high-income skills.',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80',
   },
   {
     pillar: 'Wealth',
     title: 'Wealth Creation',
     description: 'Master mutual funds, stock analysis, and portfolio allocation.',
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&auto=format&fit=crop&q=80',
   },
   {
     pillar: 'Real Estate',
     title: 'Real Estate Investing',
     description: 'Evaluate properties, REIT yields, and cap rate benchmarks.',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&auto=format&fit=crop&q=80',
   },
   {
     pillar: 'Parenting',
     title: 'Financial Parenting',
     description: 'Set up PPF/SSY accounts and education funds for your children.',
+    image: 'https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=600&auto=format&fit=crop&q=80',
   },
 ];
 

@@ -1,4 +1,3 @@
-import type { Pillar } from '../utils/pillarConfig';
 import type { BlogPost } from '../components/BlogCard';
 
 export const BLOG_POSTS: BlogPost[] = [

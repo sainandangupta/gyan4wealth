@@ -5,9 +5,9 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { Button } from '../components/Button';
 import { PILLARS_DATA } from '../data/pillarsData';
-import type { ResourceItem } from '../data/pillarsData';
+
 import { getPillarStyle } from '../utils/pillarConfig';
-import { fadeInUp, staggerContainer, slideVariants, cardHover, SHIMMER_BTN_CLASS } from '../utils/animations';
+import { fadeInUp, staggerContainer, slideVariants } from '../utils/animations';
 import {
   ChevronRight,
   ChevronLeft,

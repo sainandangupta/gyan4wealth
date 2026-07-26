@@ -5,7 +5,7 @@ import { Footer } from '../components/Footer';
 import { Button } from '../components/Button';
 import { BlogCard } from '../components/BlogCard';
 import type { BlogPost } from '../components/BlogCard';
-import { fadeInUp, staggerContainer, SHIMMER_BTN_CLASS } from '../utils/animations';
+import { fadeInUp, SHIMMER_BTN_CLASS } from '../utils/animations';
 import { Check, X, Shield, Lock, Award, Star, ChevronDown } from 'lucide-react';
 
 /* ═══════════════════════════════════════════════════════════════════════
@@ -253,7 +253,7 @@ export const Pricing: React.FC = () => {
                           <span>{f}</span>
                         </motion.li>
                       ))}
-                      {tier.notIncluded.map((f, j) => (
+                      {tier.notIncluded.map((f) => (
                         <li key={f} className="flex items-start gap-3 font-sans text-sm text-slate-400 line-through">
                           <X size={18} className="text-slate-300 shrink-0 mt-0.5" />
                           <span>{f}</span>
